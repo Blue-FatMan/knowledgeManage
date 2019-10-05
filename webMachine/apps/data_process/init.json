@@ -1,0 +1,124 @@
+{
+	"clearInfo": {
+		"clearUrl": "api/clear.json"
+	},
+	"homeInfo": {
+		"title": "首页",
+		"icon": "fa fa-home",
+		"href": "page/welcome-1.html?mpi=m-p-i-0"
+	},
+	"logoInfo": {
+		"title": "LayuiMini",
+		"image": "static/data_process/images/logo.png",
+		"href": ""
+	},
+	"menuInfo": {
+		"document": {
+			"title": "文档说明",
+			"icon": "fa fa-address-book",
+			"child": [{
+					"title": "数据集转换",
+					"href": "",
+					"icon": "fa fa-home",
+					"target": "_self",
+					"child": [{
+							"title": "主页一",
+							"href": "page/welcome-1.html",
+							"icon": "fa fa-tachometer",
+							"target": "_self"
+						},
+						{
+							"title": "预处理数据",
+							"href": "datapage/sjjzh/jianduxuexi",
+							"icon": "fa fa-tachometer",
+							"target": "_self"
+						}
+					]
+				}
+			]
+		},
+		"task": {
+			"title": "任务管理",
+			"icon": "fa fa-lemon-o",
+			"child": [{
+					"title": "图标列表",
+					"href": "page/icon.html",
+					"icon": "fa fa-dot-circle-o",
+					"target": "_self"
+				},
+				{
+					"title": "图标选择",
+					"href": "page/icon-picker.html",
+					"icon": "fa fa-adn",
+					"target": "_self"
+				},
+				{
+					"title": "颜色选择",
+					"href": "page/color-select.html",
+					"icon": "fa fa-dashboard",
+					"target": "_self"
+				},
+				{
+					"title": "下拉选择",
+					"href": "page/table-select.html",
+					"icon": "fa fa-angle-double-down",
+					"target": "_self"
+				},
+				{
+					"title": "文件上传",
+					"href": "page/upload.html",
+					"icon": "fa fa-arrow-up",
+					"target": "_self"
+				},
+				{
+					"title": "富文本编辑器",
+					"href": "page/editor.html",
+					"icon": "fa fa-edit",
+					"target": "_self"
+				}
+			]
+		},
+		"other": {
+			"title": "其它管理",
+			"icon": "fa fa-slideshare",
+			"child": [{
+					"title": "多级菜单",
+					"href": "",
+					"icon": "fa fa-meetup",
+					"target": "",
+					"child": [{
+						"title": "按钮1",
+						"href": "page/button.html",
+						"icon": "fa fa-calendar",
+						"target": "_self",
+						"child": [{
+							"title": "按钮2",
+							"href": "page/button.html",
+							"icon": "fa fa-snowflake-o",
+							"target": "_self",
+							"child": [{
+									"title": "按钮3",
+									"href": "page/button.html",
+									"icon": "fa fa-snowflake-o",
+									"target": "_self"
+								},
+								{
+									"title": "表单4",
+									"href": "page/form.html",
+									"icon": "fa fa-calendar",
+									"target": "_self"
+								}
+							]
+						}]
+					}]
+				},
+				{
+					"title": "失效菜单",
+					"href": "page/error.html",
+					"icon": "fa fa-superpowers",
+					"target": "_self"
+				}
+			]
+		}
+	}
+}
