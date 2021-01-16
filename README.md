@@ -1,6 +1,6 @@
 # 基于django和layui搭建的知识管理web，可以团队使用，也可以作为个人博客搭建，使用简单，高效，快捷
 
-后台数据库暂时使用sqlite3
+后台数据库暂时使用sqlite3,演示地址 http://49.234.35.155:8080/#datapage/sjjzh/tezhengtiqu?mpi=m-p-i-2
 
 ## 主页
 
